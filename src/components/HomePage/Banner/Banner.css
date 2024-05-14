@@ -1,0 +1,7 @@
+.head {
+    background-image:linear-gradient(to bottom, #5E9F4B, #fff );
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    -webkit-background-clip: text;
+    line-height: 4.5rem;
+}

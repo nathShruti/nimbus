@@ -1,0 +1,44 @@
+.carousel-root .control-arrow control-next:hover {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 44%;
+    right: -5%;
+}
+
+.carousel-root .control-arrow control-prev:hover {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 44%;
+    right: -5%;
+}
+
+.carousel.carousel-slider {
+    overflow: visible;
+}
+
+.carousel .control-next.control-arrow {
+    right: -45px;
+    height: 40px;
+    display: flex;
+    top: 44%;
+    align-items: center;
+    background-color: #54a455;
+}
+
+.carousel .control-prev.control-arrow {
+    left: -45px;
+    height: 40px;
+    display: flex;
+    top: 44%;
+    align-items: center;
+    background-color: #54a455;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background-color: #79C762;
+    
+}

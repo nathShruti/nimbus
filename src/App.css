@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Raleway-Thin';
+  src: url('./assets/fonts/Raleway-Thin.woff2') format('woff2'),
+      url('./assets/fonts/Raleway-Thin.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway-ThinItalic';
+  src: url('./assets/fonts/Raleway-ThinItalic.woff2') format('woff2'),
+      url('./assets/fonts/Raleway-ThinItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Gentium Book Plus';
+  src: url('./assets/fonts/GentiumBookPlus.woff2') format('woff2'),
+      url('./assets/fonts/GentiumBookPlus.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Circular Std Book';
+  src: url('./assets/fonts/CircularStd-Book.woff2') format('woff2'),
+      url('./assets/fonts/CircularStd-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Circular Std Medium';
+  src: url('./assets/fonts/CircularStd-Medium.woff2') format('woff2'),
+      url('./assets/fonts/CircularStd-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monotony';
+  src: url('./assets/fonts/Monotony.woff2') format('woff2'),
+      url('./assets/fonts/Monotony.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
