@@ -5,3 +5,15 @@
     -webkit-background-clip: text;
     line-height: 4.5rem;
 }
+
+@media (max-width:640px){
+    .head{
+        line-height: 2.5rem;
+    }
+}
+
+@media (min-width:640px) and (max-width:768px) {
+    .head{
+        line-height: 3rem;
+    }
+}

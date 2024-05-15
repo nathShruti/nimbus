@@ -22,12 +22,12 @@ const theme = createTheme({
 
 export default function Homepage () {
     return (
-        <div className="bg-white">
+        <div >
             <Header />
             <NavBar />
             <Banner />
             <HelpYou />
-            <ThemeProvider theme={theme}>
+            {/* <ThemeProvider theme={theme}>
                 <Demo />
             </ThemeProvider>
             <VideoCounter />
@@ -35,7 +35,7 @@ export default function Homepage () {
             <Clients />
             <ThemeProvider theme={theme}>
                 <FooterandLogo />
-            </ThemeProvider>
+            </ThemeProvider> */}
         </div>
     )
 }

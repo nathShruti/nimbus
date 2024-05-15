@@ -1,6 +1,4 @@
 .flip {
-    width: 235px;
-    height: 330px;   
     text-align: center;
     perspective: 600px;  
   }
@@ -19,11 +17,8 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    /* line-height: 150px; */
     backface-visibility: hidden;  
     color: #1E307A;  
-    /* background-color: lightseagreen; */
-    /* box-shadow: 6px 6px lightseagreen; */
   }
   .flip-front {
     border: 2px solid #1E307A ;
@@ -32,5 +27,4 @@
     border: 2px solid transparent;
     transform: rotateY(180deg);
     background-color: #79C762;
-    /* border: 6px solid lightseagreen; */
   }
