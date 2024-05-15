@@ -2,3 +2,15 @@
     border-radius: 0 !important;
 }
 
+@media (max-width:640px){
+    .box .css-j204z7-MuiFormControlLabel-root {
+        
+        align-items: start;
+    }
+
+    .box .css-k5t796-MuiButtonBase-root-MuiCheckbox-root{
+        padding-top: 0px !important;
+    }
+}
+
+

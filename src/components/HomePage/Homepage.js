@@ -27,10 +27,10 @@ export default function Homepage () {
             <NavBar />
             <Banner />
             <HelpYou />
-            {/* <ThemeProvider theme={theme}>
+            <ThemeProvider theme={theme}>
                 <Demo />
             </ThemeProvider>
-            <VideoCounter />
+            {/* <VideoCounter />
             <Testimonial />
             <Clients />
             <ThemeProvider theme={theme}>
