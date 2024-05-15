@@ -28,7 +28,7 @@ export default function Demo() {
                     <FormControlLabel control={<Checkbox color='primary'/>} label='I would also like to receive the latest news and updates from Nimbus.'/>
                 </FormGroup>
             </div>
-            <button className='bg-[#1E307A] text-white w-32 m-4 xl:w-52 xl:p-1 xl:m-3 font-circular-book'>SUBMIT</button>
+            <button className='bg-[#1E307A] text-white w-32 m-4 md:w-52 md:p-1 xl:m-3 font-circular-book'>SUBMIT</button>
             </form>
         </section>
     )
