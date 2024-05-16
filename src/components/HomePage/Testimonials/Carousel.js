@@ -15,7 +15,7 @@ class DemoCarousel extends Component {
         return (
             <div>
             <Carousel className="car-large" transitionTime={1000} showStatus={false} showIndicators={false} swipeable={true} autoPlay={false} showThumbs={false}>
-                <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
+                <div className="grid grid-cols-2 justify-center items-center">
                 <div className="h-52 border-r-2 border-b-2 border-dashed">
                     <div className="flex flex-row py-3 px-2">
                         <div className="flex flex-col m-2 w-20 h-20">
@@ -73,7 +73,7 @@ class DemoCarousel extends Component {
                     </div>
                 </div>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
+                <div className="grid grid-cols-2 justify-center items-center">
                 <div className="h-52 border-r-2 border-b-2 border-dashed">
                     <div className="flex flex-row py-3 px-2">
                         <div className="flex flex-col m-2 w-20 h-20">
