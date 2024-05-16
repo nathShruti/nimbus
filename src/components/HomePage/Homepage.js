@@ -30,12 +30,12 @@ export default function Homepage () {
             <ThemeProvider theme={theme}>
                 <Demo />
             </ThemeProvider>
-            {/* <VideoCounter />
+            <VideoCounter />
             <Testimonial />
             <Clients />
             <ThemeProvider theme={theme}>
                 <FooterandLogo />
-            </ThemeProvider> */}
+            </ThemeProvider>
         </div>
     )
 }

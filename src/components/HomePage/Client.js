@@ -6,20 +6,26 @@ import c4 from "../../assets/img/jewllwry-and-gems-clients-7.jpg";
 import c5 from "../../assets/img/jewllwry-and-gems-clients-10.jpg";
 import c6 from "../../assets/img/jewllwry-and-gems-clients-11.jpg";
 
+const clientLogo = [
+    {logo: c1},
+    {logo: c2},
+    {logo: c3},
+    {logo: c4},
+    {logo: c5},
+    {logo: c6},
+]
+
 export default function Clients() {
     return(
         <section className="h-auto bg-cover bg-clientbg py-10">
             <div>
-                <p className="text-4xl mb-7 text-center font-circular-medium text-[#ffffff]">Our Clients</p>
+                <p className="text-3xl md:text-4xl mb-7 text-center font-circular-medium text-[#ffffff]">Our Clients</p>
             </div>
-            <div className="py-7">
+            <div className="py-2 md:py-7">
                 <Marquee>
-                    <img src={c1} alt="client" className="mx-5"/>
-                    <img src={c2} alt="client" className="mx-5"/>
-                    <img src={c3} alt="client" className="mx-5"/>
-                    <img src={c4} alt="client" className="mx-5"/>
-                    <img src={c5} alt="client" className="mx-5"/>
-                    <img src={c6} alt="client" className="mx-5"/>
+                    {clientLogo.map((item) => (
+                        <img src={item.logo} alt="client" className="mx-5"/>
+                    ))}
                 </Marquee>
             </div>
         </section>

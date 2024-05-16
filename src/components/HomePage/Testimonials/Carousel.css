@@ -42,3 +42,29 @@
     background-color: #79C762;
     
 }
+
+@media (min-width:319px) and (max-width:768px) {
+    .car-large {
+        display: none;
+    }
+
+    .carousel .control-next.control-arrow {
+        display: none;
+    }
+
+    .carousel .control-prev.control-arrow {
+        display: none;
+    }
+
+    .carousel .control-dots {
+        position: absolute;
+        bottom: -40px;
+    }
+}
+
+@media (min-width:769px) and (max-width:2000px) {
+    .car-small {
+        display: none;
+    }
+
+}

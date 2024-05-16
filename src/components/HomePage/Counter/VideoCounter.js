@@ -8,7 +8,7 @@ export default function VideoCounter() {
     return(
         <section className="bg-white h-auto">
             <div className='flex justify-center'>
-                <div className='w-3/5 h-80'>
+                <div className='w-full h-40 md:w-3/5 md:h-52 lg:w-3/5 lg:h-80 xl:h-96'>
                     <ReactPlayer
                         url={video1}
                         controls={true}
@@ -18,7 +18,7 @@ export default function VideoCounter() {
                     />
                 </div>
             </div>
-            <div className="bg-counter bg-cover w-full h-80 -mt-32"> 
+            <div className="bg-counter bg-cover w-full h-auto md:h-72 lg:h-80 -mt-20 lg:-mt-28 xl:-mt-32"> 
                 <Counter />
             </div>
         </section>
